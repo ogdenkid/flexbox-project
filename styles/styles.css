@@ -1,0 +1,52 @@
+
+.box {
+  display: flex;
+  height: 50px;
+  background-color: purple;
+  flex: 1;
+}
+
+.footer {
+  flex: 1 1 100%;
+}
+
+.big {
+  flex: 2;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.two-equal {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: darkgreen;
+}
+
+.three-equal {
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background-color: darkgreen;
+}
+
+.three-unequal {
+  flex-direction: row;
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  background-color: darkgreen;
+}
+
+.four-equal-footer {
+  flex-direction: row;
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  background-color: darkgreen;
+  flex-wrap: wrap;
+}
